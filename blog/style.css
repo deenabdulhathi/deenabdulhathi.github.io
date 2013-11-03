@@ -51,7 +51,7 @@ table {
 /* Deen's additions for Lab 0 */
 
 body h1{ 
-	font-family: Oswald, Verdana, sans-serif; /* got Oswald from google, added to link href */
+	font-family: league_gothicregular; /* got Oswald from google, added to link href */
 	text-transform: uppercase;
 }
 
@@ -75,7 +75,7 @@ nav a {
 }
 
 article h2 {
-	font-family: Oswald, Verdana, sans-serif;
+	font-family: league_gothicregular, Verdana, sans-serif;
 	font-size: 150%;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -98,4 +98,17 @@ p.date {
 
 p{
 	word-spacing: 0.1em;
+}
+
+/* Lab 1 */
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('type/leaguegothic-regular-webfont.eot');
+    src: url('type/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/leaguegothic-regular-webfont.woff') format('woff'),
+         url('type/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('type/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
