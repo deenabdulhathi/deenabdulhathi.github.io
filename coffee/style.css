@@ -47,7 +47,14 @@ table {
 	border-spacing: 0;
 }
 
-/* The above is Reset code for older browsers */
+/* The above is Reset code for older browsers - don't touch it*/
+
+
+
+/* ===================================================================================================*/
+
+
+
 /* Deen's additions for Lab 0 */
 
 body{
@@ -69,16 +76,49 @@ h1.beans-caffe{
 h1.title{
 	font-family: Oswald, Verdana, sans-serif;
 	font-size: 150%;
+	text-align: center;
 
 }
 
 nav a {
 	text-decoration: none;
 	color:black;
-	font-weight: bold;
 	line-height: 2em;
+	color:#F1EEC9;
 }
 
 p{
 	text-align: center;
+}
+
+article {
+	width:40%;
+	float:left;
+	margin: 5%;
+}
+
+footer {
+	clear:both;
+	background-color: #401E03;
+	height: 75px;
+	color:#F1EEC9;
+	padding-top: 30px;
+}
+
+nav {
+	display: inline-block;
+	word-spacing: 2em;
+	background-color: #401E03;
+	width: 100%;
+	text-align: center;
+
+}
+
+nav ul li {
+	display:inline;
+}
+
+.logo {
+	width:100%;
+	display: block;
 }
