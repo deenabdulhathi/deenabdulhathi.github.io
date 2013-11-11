@@ -1,0 +1,33 @@
+.one, .three {
+	float: left;
+	width:15%;
+	height:40px;
+}
+
+.two{
+	width:70%;
+	float:left;
+	height:40px;
+}
+
+.four, .six{
+	float:left;
+	width:30%;
+}
+
+.five, .seven, .eight {
+	float:left;
+	width:70%;
+}
+
+.four, .five {
+	height: 120px;
+}
+
+.six {
+	height:200px;
+}
+
+.seven, .eight {
+	height: 100px;
+}

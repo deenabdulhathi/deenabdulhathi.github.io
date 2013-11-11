@@ -1,0 +1,22 @@
+.one {
+	width:100%;
+	height:10%;
+}
+
+.two, .three, .four, .five {
+	width:25%;
+	height:25%;
+	float:left;
+}
+
+.six, .seven {
+	float:left;
+	width:50%;
+	height:50%;
+}
+
+.eight{
+	float:left;
+	width:100%;
+	height:10%;
+}

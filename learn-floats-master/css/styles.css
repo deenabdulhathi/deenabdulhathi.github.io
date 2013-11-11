@@ -1,0 +1,85 @@
+/*
+ * styles.css
+ * an intro, demo, and explanation of the Learn Floats exercise
+ * Jul 2013
+ * paul@startupinstitute.com
+*/
+
+/*
+ * Welcome to the Learn Floats! I'm having fun writing this up :P I hope you
+ * guys have been commenting your files well, it makes all the difference.
+ *
+ * There are eight divs, all with easily targetable classes:
+ *   .one, .two, .three, .four, .five, .six, .seven, .eight
+ *
+ * Don't change the html structure at all, just work with the css. There are
+ * four sketches for layouts using all eight divs. For a flexible layout, use
+ * widths that are percentage based, and for layout purposes, use pixel based
+ * heights. This will ensure your divs don't overlap each other. If you want to
+ * see what I mean, take two divs floating side by side, and change their
+ * heights to differ by 100px or so. Check out what it does to the divs beneath
+ * them.
+ *
+ * I will style a demo layout, and include a blank stylesheet for each
+ * sketch you folks will lay out. Just change the url int he stylesheet link to
+ * include the sketch sheet you're working on.
+ *
+ * NOTE: Leave the link for styles.css in there, it has the colors and stuff.
+ *
+ * I will also include a set of stylesheets that have the answers.
+ * TRY YOUR BEST NOT TO LOOK AT THESE SHEETS UNLESS YOU'RE REALLY STUCK!
+ *
+ * Getting stuck and getting frustrated is part of the game. Welcome to floats.
+ * Welcome to Front-End. Sometime's it's a bitch, but that's where the
+ * satisfaction is. Keep on truckin'
+ *
+*/ 
+
+/**
+ * GLOBAL STYLES
+**/
+
+/* simple reset to get rid of spacing on the sides and top of the frame/page */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Declaration of element colors for easy ID (yea, this ain't gonna be pretty) */
+.one {
+  background: red;
+  color: black;
+}
+.two {
+  background: orange;
+  color: black;
+}
+.three {
+  background: yellow;
+  color: black;
+}
+.four {
+  background: green;
+  color: white;
+}
+.five {
+  background: blue;
+  color: white;
+}
+.six {
+  background: purple;
+  color: white;
+}
+.seven {
+  background: grey;
+  color: white;
+}
+.eight {
+  background: black;
+  color: white;
+}
+
+/* text alignment to show numbers for quick reference */
+.one, .two, .three, .four, .five, .six, .seven, .eight {
+  text-align: center;
+}

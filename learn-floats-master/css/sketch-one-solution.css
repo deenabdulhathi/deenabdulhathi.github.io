@@ -1,0 +1,27 @@
+/* Sketch One Solution */
+
+.one {
+  width: 100%;
+  height: 100px;
+}
+.two, .three, .four, .five {
+  width: 25%;
+  float: left;
+  height: 200px;
+}
+.six {
+  clear: left;
+  float: left;
+  width: 50%;
+  height: 400px;
+}
+.seven {
+  float: left; 
+  width: 50%;
+  height: 400px;
+}
+.eight {
+  clear: left;
+  height: 100px;
+  width: 100%;
+}

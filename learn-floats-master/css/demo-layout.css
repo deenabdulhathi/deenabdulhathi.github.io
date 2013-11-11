@@ -1,0 +1,23 @@
+/*
+ * demo-layout.css
+ * a demo layout
+ * Jul 2013
+ * paul@startupinstitute.com
+*/
+
+/* Dive right in on heights and widths for a super-simple layout */
+.one, .four, .eight {
+  width: 100%;
+  height: 100px;
+  clear: left;
+}
+.two, .three {
+  width: 50%;
+  height: 100px;
+  float: left;
+}
+.five, .six, .seven {
+  width: 33.33%;
+  height: 100px;
+  float: left;
+}

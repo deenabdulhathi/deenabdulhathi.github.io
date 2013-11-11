@@ -1,0 +1,30 @@
+/* Sketch four solution */
+
+.one, .six {
+  height: 300px;
+  float: left;
+  width: 10%;
+}
+.two, .three {
+  height: 150px;
+  float: left;
+  width: 90%;
+}
+.four, .five {
+  float: left;
+  width: 50%;
+  height: 200px;
+}
+.four {
+  clear: left;
+}
+.seven {
+  width: 90%;
+  height: 300px;
+  float: left;
+}
+.eight {
+  width: 100%;
+  clear: left;
+  height: 100px;
+}

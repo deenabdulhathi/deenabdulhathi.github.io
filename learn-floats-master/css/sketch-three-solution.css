@@ -1,0 +1,29 @@
+/* Sketch three solution */
+/* There are different ways to organize your style declarations. This sheet will
+ * focus on what the elements share, instead of on individual classes */
+
+.one, .two, .three {
+  float: left;
+  height: 300px;
+}
+.one, .two {
+  width: 25%;
+}
+.three {
+  width: 50%
+}
+.four, .eight {
+  width: 100%;
+  height: 100px;
+  clear: left;
+}
+.five, .six, .seven {
+  height: 300px;
+  float: left;
+}
+.five, .seven {
+  width: 25%;
+}
+.six {
+  width: 50%;
+}
