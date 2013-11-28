@@ -1,0 +1,13 @@
+
+.product {
+  min-height:250px;
+}
+
+.product img {
+  float:left;
+}
+
+.products {
+	max-width: 960px;
+	text-align: center;
+}
